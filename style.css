@@ -1,0 +1,83 @@
+/* * {
+  padding: 0;
+  margin: 0;
+} */
+header h1 {
+  font-size: 30px;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  /* line-height-step: 10px; */
+}
+.linkcontainer {
+  /* border: 1px;
+  margin: 1rem;
+  padding: 2rem 2rem; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.link {
+  font-size: 15px;
+  padding: 5px;
+  margin: 5px;
+}
+a {
+  color: black;
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+  text-decoration: none;
+}
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.soc {
+  font-size: 15px;
+  padding: 5px;
+  margin: 5px;
+}
+.headsmall {
+  font-size: 20px;
+  line-height: 5px;
+}
+.headlarge {
+  font-size: 30px;
+  display: block;
+}
+article h2 {
+  text-align: center;
+}
+hr {
+  width: 70vw;
+}
+h2 {
+  font-family: "Playfair Display", serif;
+}
+.container {
+  padding: 10px;
+  margin: 50px;
+  /* width: min(95%, 45rem);
+  width: max(95%, 45rem); */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.item {
+  font-size: 15px;
+  padding: 10px;
+  margin: 10px;
+  max-width: 15rem;
+}
+article a {
+  font-family: "Playfair Display", serif;
+  color: red;
+}
+article p {
+  color: black;
+}
+.round {
+  border-radius: 0.75rem;
+  min-width: 15rem;
+  max-width: 15rem;
+}
